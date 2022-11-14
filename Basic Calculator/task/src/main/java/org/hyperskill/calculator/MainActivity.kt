@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         setupButton(R.id.button8)
         setupButton(R.id.button9)
         
-        val clear : Button= findViewById(R.id.clearButton)
+        val clear: Button = findViewById(R.id.clearButton)
         val dot: Button = findViewById(R.id.dotButton)
         val equal: Button = findViewById(R.id.equalButton)
         

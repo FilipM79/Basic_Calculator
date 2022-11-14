@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.calculator.Stage1UnitTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-11-11T12:14:10" hostname="FILIP-LAPTOP" time="12.176">
+  <properties/>
+  <testcase name="testShouldCheckButtonsText" classname="org.hyperskill.calculator.Stage1UnitTest" time="9.927"/>
+  <testcase name="testShouldCheckButtonsExist" classname="org.hyperskill.calculator.Stage1UnitTest" time="0.592"/>
+  <testcase name="testShouldCheckEditTextHintIsSetToZero" classname="org.hyperskill.calculator.Stage1UnitTest" time="0.852"/>
+  <testcase name="testShouldCheckEditTextContainZero" classname="org.hyperskill.calculator.Stage1UnitTest" time="0.414"/>
+  <testcase name="testShouldCheckEditTextExist" classname="org.hyperskill.calculator.Stage1UnitTest" time="0.388"/>
+  <system-out><![CDATA[Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=29
+resources.arsc in APK 'C:\Users\Filip\.m2\repository\org\robolectric\android-all-instrumented\10-robolectric-5803371-i3\android-all-instrumented-10-robolectric-5803371-i3.jar' is compressed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

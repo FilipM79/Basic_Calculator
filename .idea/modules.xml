@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basic_Calculator.iml" filepath="$PROJECT_DIR$/.idea/modules/Basic_Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basic Calculator/task/Basic_Calculator.Basic_Calculator-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Basic Calculator/task/Basic_Calculator.Basic_Calculator-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basic Calculator/task/Basic_Calculator.Basic_Calculator-task.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Basic Calculator/task/Basic_Calculator.Basic_Calculator-task.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basic Calculator/task/Basic_Calculator.Basic_Calculator-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Basic Calculator/task/Basic_Calculator.Basic_Calculator-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basic Calculator/task/Basic_Calculator.Basic_Calculator-task.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Basic Calculator/task/Basic_Calculator.Basic_Calculator-task.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Equal lists/Basic_Calculator.Topics-Introduction_to_MutableList-Equal_lists.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Equal lists/Basic_Calculator.Topics-Introduction_to_MutableList-Equal_lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Initializing a mutable list of integers/Basic_Calculator.Topics-Introduction_to_MutableList-Initializing_a_mutable_list_of_integers.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Initializing a mutable list of integers/Basic_Calculator.Topics-Introduction_to_MutableList-Initializing_a_mutable_list_of_integers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Printing the last element/Basic_Calculator.Topics-Introduction_to_MutableList-Printing_the_last_element.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Printing the last element/Basic_Calculator.Topics-Introduction_to_MutableList-Printing_the_last_element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Right ways to create mutable lists/Basic_Calculator.Topics-Introduction_to_MutableList-Right_ways_to_create_mutable_lists.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Right ways to create mutable lists/Basic_Calculator.Topics-Introduction_to_MutableList-Right_ways_to_create_mutable_lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Swap/Basic_Calculator.Topics-Introduction_to_MutableList-Swap.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Swap/Basic_Calculator.Topics-Introduction_to_MutableList-Swap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Theory/Basic_Calculator.Topics-Introduction_to_MutableList-Theory.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Introduction to MutableList/Theory/Basic_Calculator.Topics-Introduction_to_MutableList-Theory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Basic_Calculator.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Basic_Calculator.util.iml" />
+    </modules>
+  </component>
+</project>

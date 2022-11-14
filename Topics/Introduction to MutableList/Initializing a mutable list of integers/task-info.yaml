@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/main/Main.kt
+  visible: true
+  text: "fun main() {\n    val numbers = // ...\n\n    // do not touch the lines below\
+    \ \n    println(numbers.joinToString())\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14886#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 11 Nov 2022 10:09:09 UTC
+record: -1
