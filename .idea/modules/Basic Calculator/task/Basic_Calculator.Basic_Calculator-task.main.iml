@@ -59,8 +59,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ffeaa0536689f2d0b2f23583c8fb6099/transformed/jetified-kotlin-stdlib-common-1.6.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/4e3be7accb96874fa375ac2e243a2bdc/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/937ea9cc70a5eadf6be25ad65ccf68d0/transformed/constraintlayout-2.1.3-api.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/android.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.2/core-lambda-stubs.jar</arg>
+                <arg>$USER_HOME$/Library/Android/sdk/platforms/android-29/android.jar</arg>
+                <arg>$USER_HOME$/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../../Basic Calculator/task/build/tmp/kotlin-classes/debug" />
@@ -98,6 +98,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../Basic Calculator/task/build/generated/aidl_source_output_dir/debug/out" />
     <content url="file://$MODULE_DIR$/../../../../Basic Calculator/task/build/generated/ap_generated_sources/debug/out">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Basic Calculator/task/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../Basic Calculator/task/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../../Basic Calculator/task/build/generated/renderscript_source_output_dir/debug/out" />

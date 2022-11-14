@@ -2466,6 +2466,7 @@ layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string _0
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2588,6 +2589,7 @@ string status_bar_notification_info_overflow
 string three
 string two
 string zero
+string zeroDouble
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

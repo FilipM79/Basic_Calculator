@@ -1,4 +1,4 @@
-#Mon Nov 14 08:21:16 CET 2022
-base.0=C\:\\Users\\Filip\\AndroidStudioProjects\\Basic Calculator\\Basic Calculator\\task\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Mon Nov 14 18:19:00 CET 2022
+base.0=/Users/filip/AndroidStudioProjects/Basic Calculator/Basic Calculator/task/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

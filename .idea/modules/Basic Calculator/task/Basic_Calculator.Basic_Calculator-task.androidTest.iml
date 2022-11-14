@@ -75,8 +75,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/4e3be7accb96874fa375ac2e243a2bdc/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b1fd862c726398aebe4b797fbf8cd046/transformed/jetified-annotations-13.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ffeaa0536689f2d0b2f23583c8fb6099/transformed/jetified-kotlin-stdlib-common-1.6.10.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/android.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.2/core-lambda-stubs.jar</arg>
+                <arg>$USER_HOME$/Library/Android/sdk/platforms/android-29/android.jar</arg>
+                <arg>$USER_HOME$/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../../Basic Calculator/task/build/tmp/kotlin-classes/debugAndroidTest" />
