@@ -47,10 +47,12 @@ class MainActivity : AppCompatActivity() {
         val multiply: Button = findViewById(R.id.multiplyButton)
         val divide: Button = findViewById(R.id.divideButton)
     
+        calcDisplay.text.clear()
+        calcDisplay.text.append("0")
+    
         clear.setOnClickListener {
             calcDisplay.text.clear()
             calcDisplay.text.append("0")
-//            calcDisplay.hint = "0"
         }
     
         dot.setOnClickListener {
@@ -64,23 +66,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         equalize(equal)
-
-        minus.setOnClickListener {
-            if (calcDisplay.text.toString() == "0" || calcDisplay.text.toString() == "0.0") {
-                calcDisplay.text.clear()
-                calcDisplay.text.append("-")
-            } else {
-                performOperation(minus, equal)
-            }
-        }
-
+        performOperation(minus, equal)
         performOperation(plus, equal)
         performOperation(multiply, equal)
         performOperation(divide,equal)
     }
 
     private fun equalize(equal: Button): Double {
-        var result: Double = 0.0
+        var result = 0.0
 
         equal.setOnClickListener {
             val y = calcDisplay.text.toString().toDouble()
@@ -108,23 +101,18 @@ class MainActivity : AppCompatActivity() {
     }
     
     private fun performOperation(button: Button, equal: Button) {
-
+        
         button.setOnClickListener {
-//
-//            if (button.text.toString() == "-" && calcDisplay.text.isEmpty()) {
-//                calcDisplay.text.append("-")
-//            }
-            if (calcDisplay.text.isEmpty()) {
-                x = 0.0
+            val displayString = calcDisplay.text.toString()
 
+            if (displayString == "0" || displayString == "0.0" && button.text.toString() == "-") {
+                calcDisplay.text.clear()
+                calcDisplay.text.append("-")
             } else {
                 x = calcDisplay.text.toString().toDouble()
-//                if (operand == "-") x = -x
-
-                Log.i(x.toString(), "iz perform operation x: $x")
                 operand = button.text.toString()
                 calcDisplay.text.clear()
-
+                calcDisplay.text.append("0")
                 calcDisplay.hint = String.format("%1s %2s", x.toString(), operand)
 
                 equalize(equal)
@@ -133,9 +121,20 @@ class MainActivity : AppCompatActivity() {
     }
     
     private fun Button.appendToDisplayOnClick() {
-
-        if (calcDisplay.text.toString() == "0") calcDisplay.text.clear()
-        calcDisplay.text.append(text)
+        val displayString = calcDisplay.text.toString()
+        if (displayString == "-") {
+            if (text.toString() == "0") {
+                calcDisplay.text.clear()
+                calcDisplay.append("-")
+            } else {
+                calcDisplay.text.append(text)
+            }
+        } else if (displayString == "0") {
+            calcDisplay.text.clear()
+            calcDisplay.append(text)
+        } else {
+            calcDisplay.append(text)
+        }
     }
     
     private fun setupButton(@IdRes resId: Int): Button =
