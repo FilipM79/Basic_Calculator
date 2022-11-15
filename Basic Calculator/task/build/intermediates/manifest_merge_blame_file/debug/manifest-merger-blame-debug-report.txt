@@ -25,22 +25,23 @@
 17-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:9:7-52
 18        android:supportsRtl="true"
 18-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:10:7-33
-19        android:theme="@style/AppTheme" >
-19-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:11:7-38
-20        <activity android:name="org.hyperskill.calculator.MainActivity" >
-20-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:12:5-18:16
-20-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:12:15-68
-21            <intent-filter>
-21-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:13:7-17:23
-22                <action android:name="android.intent.action.MAIN" />
-22-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:14:9-61
-22-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:14:17-58
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:16:9-69
-24-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:16:19-66
-25            </intent-filter>
-26        </activity>
-27    </application>
-28
-29</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:11:7-38
+21        <activity android:name="org.hyperskill.calculator.MainActivity" >
+21-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:12:5-18:16
+21-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:12:15-68
+22            <intent-filter>
+22-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:13:7-17:23
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:14:9-61
+23-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:14:17-58
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:16:9-69
+25-->C:\Users\Filip\AndroidStudioProjects\Basic Calculator\Basic Calculator\task\src\main\AndroidManifest.xml:16:19-66
+26            </intent-filter>
+27        </activity>
+28    </application>
+29
+30</manifest>

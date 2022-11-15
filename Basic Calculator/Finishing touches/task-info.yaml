@@ -353,6 +353,10 @@ files:
         implementation "com.google.android.material:material:$material"
     }
   learner_created: false
+- name: src/test/java/resources/robolectric.properties
+  visible: false
+  text: sdk=28
+  learner_created: false
 - name: src/test/java/org/hyperskill/calculator/Stage4UnitTest.kt
   visible: false
   text: |-
@@ -472,10 +476,13 @@ files:
 
     }
   learner_created: false
-- name: src/test/java/resources/robolectric.properties
-  visible: false
-  text: sdk=28
-  learner_created: false
+- name: src/test/java/org/hyperskill/calculator/Stage3UnitTest.kt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13540#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Tue, 15 Nov 2022 09:21:37 UTC
 record: -1

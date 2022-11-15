@@ -14,7 +14,7 @@ import kotlin.math.sign
 class MainActivity : AppCompatActivity() {
     
     private lateinit var calcDisplay: EditText
-    private var x: Double = 0.0
+    private var x = 0.0
     private var operand = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,12 +22,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     
         calcDisplay = findViewById(R.id.editText)
+        val zero: Button = findViewById(R.id.button0)
 
-        val zero: Button = findViewById<Button>(R.id.button0)
-
-       zero.setOnClickListener {
-           if (calcDisplay.text.toString() != "0") zero.appendToDisplayOnClick()
-       }
+        zero.setOnClickListener {
+            if (calcDisplay.text.toString() != "0") zero.appendToDisplayOnClick()
+        }
         setupButton(R.id.button1)
         setupButton(R.id.button2)
         setupButton(R.id.button3)
@@ -52,6 +51,7 @@ class MainActivity : AppCompatActivity() {
     
         clear.setOnClickListener {
             calcDisplay.text.clear()
+            calcDisplay.hint = "0"
             calcDisplay.text.append("0")
         }
     
@@ -72,12 +72,11 @@ class MainActivity : AppCompatActivity() {
         performOperation(divide,equal)
     }
 
-    private fun equalize(equal: Button): Double {
-        var result = 0.0
+    private fun equalize(equal: Button) {
+        var result: Double
 
         equal.setOnClickListener {
             val y = calcDisplay.text.toString().toDouble()
-            Log.i(x.toString(), "iz equal x: $x")
 
             if (y.equals(0.0)) {
                 calcDisplay.text.clear()
@@ -91,17 +90,19 @@ class MainActivity : AppCompatActivity() {
                     "/" -> x / y
                     else -> 0.123456789
                 }
-                Log.i(result.toString(), "result from equal: $result")
-                val roundedResult = (result * 100.0).roundToInt() / 100.0
-                calcDisplay.text.append(roundedResult.toString())
-
+                
+                val resultString = if ((result * 100.0).toInt() == ((result).roundToInt() * 100)) {
+                                        result.toInt().toString()
+                                    } else {
+                                        ((result * 100.0).roundToInt() / 100.0).toString()
+                                    }
+                
+                calcDisplay.text.append(resultString)
             }
         }
-        return result
     }
     
     private fun performOperation(button: Button, equal: Button) {
-        
         button.setOnClickListener {
             val displayString = calcDisplay.text.toString()
 
@@ -112,8 +113,14 @@ class MainActivity : AppCompatActivity() {
                 x = calcDisplay.text.toString().toDouble()
                 operand = button.text.toString()
                 calcDisplay.text.clear()
-                calcDisplay.text.append("0")
-                calcDisplay.hint = String.format("%1s %2s", x.toString(), operand)
+                
+                val xToString = if ((x * 100.0).toInt() == ((x).roundToInt() * 100)) {
+                                    x.toInt().toString()
+                                } else {
+                                    ((x * 100.0).roundToInt() / 100.0).toString()
+                                }
+//                calcDisplay.hint = xToString
+                calcDisplay.hint = String.format("%1s %2s", xToString, operand)
 
                 equalize(equal)
             }
